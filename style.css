@@ -1,0 +1,54 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Estilos para a seção principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    /* Aqui você pode adicionar estilos para a seção, como background, padding, etc. */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Media queries para responsividade (opcional) */
+  @media (max-width: 768px) {
+    /* Estilos para telas menores */
+    /* Por exemplo, ajustar o tamanho da fonte, margens e padding */
+  }
