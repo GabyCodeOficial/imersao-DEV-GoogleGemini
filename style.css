@@ -1,8 +1,8 @@
 /* Estilos globais */
-/* Estilos globais */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: lightgray;
   /* Centraliza o conteúdo por padrão */
 }
 
@@ -16,7 +16,10 @@ body {
 header {
   background-color: var(--cor-secundaria);
   padding: 20px;
-  width:100%;
+  width: 90%;
+  height:80%;
+  text-align: center;
+  
 }
 
 /* Estilos para a seção principal */
@@ -39,8 +42,7 @@ input[type="text"] {
   border-radius: 50px;
   border-color: slategray;
   font-size: 16px;
-  background-color: lightgray;
-  color: floralwhite;
+  background-color: darkgray;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
   text-align: center;
@@ -69,8 +71,8 @@ footer {
   padding: 20px;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 8rem;
+  width: 85%;
+  height: 20%;
 }
 
 /* Media queries para responsividade */
